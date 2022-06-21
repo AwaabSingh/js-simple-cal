@@ -4,13 +4,13 @@ const num2 = parseInt(prompt('Enter second number'))
 const math = prompt('enter either +, -, *, /')
 
 if (math === '+') {
-    alert(num1 + num2)
+    alert(`Result is ${num1 + num2}`)
 } else if (math === '-') { 
-    alert(num1 - num2)
+    alert(`Result is ${num1 - num2}`)
 }else if (math === '*') { 
-    alert(num1 * num2)
+    alert(`Result is ${num1 * num2}`)
 } else if (math === '/') { 
-    alert(num1 / num2)
+    alert(`Result is ${num1 / num2}`)
 } 
 else {
     alert('Invalid Symbol.. Try again')
